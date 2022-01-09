@@ -1,0 +1,34 @@
+###
+PUT http://localhost:3200/api/user/:ID HTTP/1.1
+
+
+###
+DELETE http://localhost:3200/api/user/:ID HTTP/1.1
+
+
+###
+POST http://localhost:3200/api/user/login HTTP/1.1
+content-type: application/json
+
+{
+  "email": "b@gmail.com",
+  "password": "12qw"
+}
+
+###
+POST http://localhost:3200/api/user/signup HTTP/1.1
+content-type: application/json
+
+{
+  "name": "admin",
+  "password": "12qw",
+  "auth": "admin",
+  "email": "b@gmail.com"
+}
+
+###
+
+GET  http://localhost:3200/api/user/all HTTP/1.1
+
+
+###

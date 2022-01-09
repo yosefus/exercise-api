@@ -1,0 +1,42 @@
+###
+GET http://localhost:3200/api/exercise/all HTTP/1.1
+
+
+###
+GET http://localhost:3200/api/exercise/61d739121a144118883cbb36 HTTP/1.1
+
+###
+GET http://localhost:3200/api/exercise/bylang/61d808d9e1d54f8ae11b1c44 HTTP/1.1
+
+
+###
+PUT http://localhost:3200/api/exercise/61d739121a144118883cbb36 HTTP/1.1
+content-type: application/json
+
+{
+  "title": "the first one",
+  "description": "some description one"
+}
+
+###
+DELETE  http://localhost:3200/api/exercise/:id HTTP/1.1
+
+
+###
+POST http://localhost:3200/api/exercise HTTP/1.1
+content-type: application/json
+
+{
+ 
+  "title": "התרגיל השני שלי",
+  "description": "תיאור מפורט מאוד מה התרגיל המוזר הזה עושה",
+  "creator": "61d72ef6c5a70c65e23d3c34",
+  "type": "tutorial",
+  "difficulty": "hard",
+  "labels": ["js", "array", "loop", "object", "map", "function"],
+  "programingLanguage": "61d808d9e1d54f8ae11b1c44",
+  "content": {"simple": "the first one" },
+  "status": "publish"
+}
+
+###

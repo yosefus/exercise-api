@@ -1,0 +1,527 @@
+###
+GET http://localhost:3200/api/lang/all HTTP/1.1
+
+
+
+
+###
+POST http://localhost:3200/api/lang HTTP/1.1
+content-type: application/json
+
+ {
+        "langName": "https://dg8krxphbh767.cloudfront.net/tracks/bash.svg",
+        "icon": "Bash",
+        "tags": [
+            "Scripts",
+            "Procedural",
+            "Interpreted"
+        ]
+    }
+
+###
+POST http://localhost:3200/api/lang/all HTTP/1.1
+content-type: application/json
+
+ [
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/bash.svg",
+        "langName": "Bash",
+        "tags": [
+            "Scripts",
+            "Procedural",
+            "Interpreted"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/c.svg",
+        "langName": "C",
+        "tags": [
+            "Compiled",
+            "Procedural",
+            "Static"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/csharp.svg",
+        "langName": "C#",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/cpp.svg",
+        "langName": "C++",
+        "tags": [
+            "Object-oriented",
+            "Static",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/cfml.svg",
+        "langName": "CFML",
+        "tags": [
+            "Declarative",
+            "Dynamic",
+            "Interpreted"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/clojure.svg",
+        "langName": "Clojure",
+        "tags": [
+            "Declarative",
+            "Functional",
+            "Dynamic"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/clojurescript.svg",
+        "langName": "ClojureScript",
+        "tags": [
+            "Declarative",
+            "Functional",
+            "Dynamic"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/coffeescript.svg",
+        "langName": "CoffeeScript",
+        "tags": [
+            "Declarative",
+            "Functional",
+            "Imperative"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/common-lisp.svg",
+        "langName": "Common Lisp",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/crystal.svg",
+        "langName": "Crystal",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/d.svg",
+        "langName": "D",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/dart.svg",
+        "langName": "Dart",
+        "tags": [
+            "Declarative",
+            "Functional",
+            "Imperative"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/delphi.svg",
+        "langName": "Delphi Pascal",
+        "tags": [
+            "Declarative",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/elixir.svg",
+        "langName": "Elixir",
+        "tags": [
+            "Functional",
+            "Dynamic",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/elm.svg",
+        "langName": "Elm",
+        "tags": [
+            "Functional",
+            "Static",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/emacs-lisp.svg",
+        "langName": "Emacs Lisp",
+        "tags": [
+            "Functional",
+            "Dynamic",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/erlang.svg",
+        "langName": "Erlang",
+        "tags": [
+            "Functional",
+            "Dynamic",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/fsharp.svg",
+        "langName": "F#",
+        "tags": [
+            "Functional",
+            "Declarative",
+            "Imperative"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/fortran.svg",
+        "langName": "Fortran",
+        "tags": [
+            "Imperative",
+            "Procedural",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/go.svg",
+        "langName": "Go",
+        "tags": [
+            "Procedural",
+            "Imperative",
+            "Static"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/groovy.svg",
+        "langName": "Groovy",
+        "tags": [
+            "Compiled",
+            "Declarative",
+            "Functional"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/haskell.svg",
+        "langName": "Haskell",
+        "tags": [
+            "Functional"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/java.svg",
+        "langName": "Java",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+   
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/julia.svg",
+        "langName": "Julia",
+        "tags": [
+            "Compiled",
+            "Dynamic",
+            "Declarative"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/kotlin.svg",
+        "langName": "Kotlin",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/lfe.svg",
+        "langName": "LFE",
+        "tags": [
+            "Functional",
+            "Dynamic",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/lua.svg",
+        "langName": "Lua",
+        "tags": [
+            "Imperative",
+            "Procedural",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/mips.svg",
+        "langName": "MIPS Assembly",
+        "tags": [
+            "Imperative",
+            "Procedural",
+            "Static"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/nim.svg",
+        "langName": "Nim",
+        "tags": [
+            "Imperative",
+            "Procedural",
+            "Static"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/objective-c.svg",
+        "langName": "Objective-C",
+        "tags": [
+            "Imperative",
+            "Procedural",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/ocaml.svg",
+        "langName": "OCaml",
+        "tags": [
+            "Functional",
+            "Static",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/perl5.svg",
+        "langName": "Perl 5",
+        "tags": [
+            "Imperative",
+            "Procedural",
+            "Dynamic"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/pharo-smalltalk.svg",
+        "langName": "Pharo",
+        "tags": [
+            "Object-oriented",
+            "Dynamic",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/php.svg",
+        "langName": "PHP",
+        "tags": [
+            "Imperative",
+            "Object-oriented",
+            "Procedural"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/plsql.svg",
+        "langName": "PL/SQL",
+        "tags": [
+            "Declarative",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/prolog.svg",
+        "langName": "Prolog",
+        "tags": [
+            "Declarative",
+            "Logic",
+            "Dynamic"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/purescript.svg",
+        "langName": "PureScript",
+        "tags": [
+            "Compiled",
+            "Functional",
+            "Linux"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/python.svg",
+        "langName": "Python",
+        "tags": [
+            "Imperative",
+            "Object-oriented",
+            "Functional"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/r.svg",
+        "langName": "R",
+        "tags": [
+            "Functional",
+            "Object-oriented",
+            "Dynamic"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/racket.svg",
+        "langName": "Racket",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/raku.svg",
+        "langName": "Raku",
+        "tags": [
+            "Imperative",
+            "Procedural",
+            "Dynamic"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/reasonml.svg",
+        "langName": "ReasonML",
+        "tags": [
+            "Functional",
+            "Static",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/ruby.svg",
+        "langName": "Ruby",
+        "tags": [
+            "Functional",
+            "Object-oriented",
+            "Linux"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/rust.svg",
+        "langName": "Rust",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Procedural"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/scala.svg",
+        "langName": "Scala",
+        "tags": [
+            "JVM (Java)",
+            "Windows",
+            "Linux"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/scheme.svg",
+        "langName": "Scheme",
+        "tags": [
+            "Functional",
+            "Dynamic",
+            "Strong"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/sml.svg",
+        "langName": "Standard ML",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Static"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/swift.svg",
+        "langName": "Swift",
+        "tags": [
+            "Declarative",
+            "Functional",
+            "Imperative"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/tcl.svg",
+        "langName": "Tcl",
+        "tags": [
+            "Procedural",
+            "Object-oriented",
+            "Functional"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/typescript.svg",
+        "langName": "TypeScript",
+        "tags": [
+            "Declarative",
+            "Functional",
+            "Imperative"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/vbnet.svg",
+        "langName": "VB.NET",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/vimscript.svg",
+        "langName": "Vim script",
+        "tags": [
+            "Functional",
+            "Imperative",
+            "Object-oriented"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/wren.svg",
+        "langName": "Wren",
+        "tags": [
+            "Windows",
+            "Linux",
+            "Mac OSX"
+        ]
+    },
+    {
+        "icon": "https://dg8krxphbh767.cloudfront.net/tracks/x86-64-assembly.svg",
+        "langName": "x86-64 Assembly",
+        "tags": [
+            "Imperative",
+            "Procedural",
+            "Static"
+        ]
+    }
+]
+
+###
+PUT  http://localhost:3200/api/lang/61d808d9e1d54f8ae11b1c44 HTTP/1.1
+content-type: application/json
+
+{
+  "langName": "JavaScript",
+  "icon": "https://dg8krxphbh767.cloudfront.net/tracks/javascript.svg",
+  "tags": [
+            "Declarative",
+            "Functional",
+            "Imperative"
+        ]
+}
+
+###
